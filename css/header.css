@@ -1,0 +1,38 @@
+header{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 0px 10px 10px #3e63138a;
+}
+header .logo{
+    width: 5rem;
+}
+header a{
+    color: #20212B;
+    text-decoration: none;
+    margin:0rem .5rem ;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+header a:hover{
+    color:#ef3a30;
+}
+header .buttonDoacao{
+    background-color:#ef3a30;
+    border: none;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    filter: grayscale(0.20);
+}
+header .buttonDoacao:hover{
+    filter: grayscale(0.01);
+    border: none;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}

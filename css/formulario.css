@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    background-color: #EEEEEE;
+    overflow: hidden;
+   
+}
+ .esquerda{
+   background-image: url(../img/imgform.jpg);
+    width:50% ;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+   
+}
+.esquerda img{
+    border-radius: 50%;
+    width: 5rem;
+ }
+ 
+.direita{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+form .labelinput{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0rem;
+}
+form .labelinput label{
+    color: #af2b24;
+    font-weight: 700;
+    margin-bottom: .25rem;
+}
+form .labelinput input{
+    border: #af2b24 .15rem solid;
+    border-radius: .25rem;
+    padding: .5rem;
+    background-color: #ef3a304b;
+    color: #af2b24;
+    font-size: 1.2rem;
+
+}
+form button{
+    background-color:#ef3a30;
+    border: none;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    filter: grayscale(0.20);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
