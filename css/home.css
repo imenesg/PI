@@ -9,7 +9,8 @@
     justify-content: center;
     padding: 2rem;
     z-index: -2;
-    position:relative
+    position:relative;
+    background-attachment: fixed;
 }
 
 /*/////////////////////////////////////////////////topo//////////////////////////////////////////*/
@@ -26,35 +27,4 @@
     background-color: rgba(82, 80, 80, 0.801);
     padding: 0rem 1rem;
 }
-/*/////////////////////////////////////////////////infoFomeBrasil//////////////////////////////////////////*/
-.infoFomeBrasil{
-    display: flex;
-    justify-content: space-between;
-    padding: 1.5rem;
-    background-color: #EEEEEE;
-}
-.infoFomeBrasil .esquerda{
-    display: flex;
-    flex-direction: column;
-    max-width:50% ;
-}
-.infoFomeBrasil .esquerda h3{
-    font-size: 2rem;
-    color: #263A4F;
-    font-weight: bold
-}
-.infoFomeBrasil .esquerda p{
-    font-size: 1rem;
-    color: #6A8695;
-    margin: 1.5rem 0rem;
-}
-.infoFomeBrasil .direita{
-    display: flex;
-    width:40% ;
-    justify-content: flex-end;
-    align-items: center; 
-}
-.infoFomeBrasil .direita img{
-    max-width:90%;
-    border-radius: 1rem;
-}
+

@@ -1,3 +1,35 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.sobre{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+    background-color: #EEEEEE;
+}
+.sobre .esquerda{
+    display: flex;
+    flex-direction: column;
+    max-width:40% ;
+}
+.sobre .esquerda h3{
+    font-size: 2rem;
+    color: #263A4F;
+    font-weight: bold
+}
+.sobre .esquerda p{
+    font-size: 1rem;
+    color: #6A8695;
+    margin: 1.5rem 0rem;
+}
+.sobre .direita{
+    display: flex;
+    width:40% ;
+    justify-content: flex-end;
+    align-items: center; 
+}
+.sobre .direita img{
+    max-width:90%;
+    border-radius: 1rem;
+}
