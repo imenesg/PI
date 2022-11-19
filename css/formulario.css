@@ -50,6 +50,11 @@ form .labelinput input{
     font-size: 1.2rem;
 
 }
+form .labelinput input::placeholder{
+    color: #af2b24a6;
+    font-size: 1.2rem;
+
+}
 form button{
     background-color:#ef3a30;
     border: none;

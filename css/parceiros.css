@@ -4,7 +4,7 @@ header{
 .topoparceiros{
     background-image: url(../img/fundoParceiros.jpg);
     background-size:  cover;                      
-    background-repeat:   no-repeat;
+    background-repeat:  no-repeat;
     background-position: 50% 50%;
     height: 50vh;
     display: flex;
@@ -46,12 +46,19 @@ section .aspas{
     border-radius: .5rem;
     margin: .5rem;
 }
+.parceiro:hover{
+   transform: scale(1.01);
+   cursor: pointer;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
+   transition: all .2s;
+}
 .imgnome{
     position: relative;
 }
 .imgnome img{
     border-radius: .5rem;
     width: 100%;
+    background-color: #fff;
 }
 .imgnome h3{
     position: absolute;
@@ -64,4 +71,6 @@ section .aspas{
 .parceiro p{
     color: #fff !important;
     text-align: left;
+    padding: .5rem;
+    text-align: justify;
 }
